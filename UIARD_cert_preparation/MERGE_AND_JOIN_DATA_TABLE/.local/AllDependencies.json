@@ -20932,15 +20932,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pavank\\.nuget\\packages\\": {}
+    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "MERGE_AND_JOIN_DATA_TABLE",
       "projectName": "MERGE_AND_JOIN_DATA_TABLE",
-      "projectPath": "D:\\Git_demo\\UiPath\\UIARD_cert_preparation\\MERGE_AND_JOIN_DATA_TABLE\\.local",
-      "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Git_demo\\UiPath\\UIARD_cert_preparation\\MERGE_AND_JOIN_DATA_TABLE\\.local"
+      "projectPath": "D:\\Pavan_K\\Git_Local\\UiPath\\UIARD_cert_preparation\\MERGE_AND_JOIN_DATA_TABLE\\.local",
+      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
+      "outputPath": "D:\\Pavan_K\\Git_Local\\UiPath\\UIARD_cert_preparation\\MERGE_AND_JOIN_DATA_TABLE\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20971,7 +20971,7 @@
             "version": "[23.4.6, 23.4.6]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
