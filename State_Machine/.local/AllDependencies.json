@@ -20938,15 +20938,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
+    "C:\\Users\\pavank\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "State_Machine",
       "projectName": "State_Machine",
-      "projectPath": "D:\\Pavan_K\\Git_Local\\UiPath\\State_Machine\\.local",
-      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
-      "outputPath": "D:\\Pavan_K\\Git_Local\\UiPath\\State_Machine\\.local"
+      "projectPath": "D:\\Git_demo\\UiPath\\State_Machine\\.local",
+      "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
+      "outputPath": "D:\\Git_demo\\UiPath\\State_Machine\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20977,7 +20977,7 @@
             "version": "[23.4.8, 23.4.8]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
