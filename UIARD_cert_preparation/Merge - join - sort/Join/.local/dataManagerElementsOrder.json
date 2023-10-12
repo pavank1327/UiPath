@@ -12,41 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DT3&Sequence_4",
-        "DT2&Sequence_4",
-        "DT1&Sequence_4"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Join2.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Join_using_Excel.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
         "DT1&Sequence_2",
         "DT2&Sequence_2",
         "DT3&Sequence_2"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "join_main.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "DT3&Sequence_1",
-        "DT2&Sequence_1",
-        "DT1&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
