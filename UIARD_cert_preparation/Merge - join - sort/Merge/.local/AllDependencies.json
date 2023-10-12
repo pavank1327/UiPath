@@ -20939,15 +20939,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
+    "C:\\Users\\pavank\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Merge",
       "projectName": "Merge",
-      "projectPath": "D:\\Pavan_K\\Git_Local\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\Merge\\.local",
-      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
-      "outputPath": "D:\\Pavan_K\\Git_Local\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\Merge\\.local"
+      "projectPath": "D:\\Git_demo\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\Merge\\.local",
+      "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
+      "outputPath": "D:\\Git_demo\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\Merge\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20978,7 +20978,7 @@
             "version": "[23.4.8, 23.4.8]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

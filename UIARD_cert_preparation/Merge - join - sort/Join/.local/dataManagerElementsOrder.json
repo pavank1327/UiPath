@@ -12,21 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "DT3&Sequence_4",
-        "DT2&Sequence_4",
-        "DT1&Sequence_4"
-      ],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": [],
-      "AddedNamespaces": null
-    },
-    {
-      "Path": "Join.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "DT1&Sequence_4",
-        "DT2&Sequence_4",
-        "DT3&Sequence_4"
+        "DT1&Sequence_2",
+        "DT2&Sequence_2",
+        "DT3&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
