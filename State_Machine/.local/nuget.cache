@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Vx/lQwvZnSl3X4n8jYcEHHaNxsgsTMlEHtyycDCvM65q0M515ChGrF4/dnkHA+DFVAohHw8i+ffwUmPrQ+s1g==",
+  "dgSpecHash": "RVp2ESl9VcVpXzvu29gc3J7CDZoAaoMKCeJUVf+FBaWOShx4QSv8BPPDA84fSxz6PQA9ckQw+a9O6eem79ZINA==",
   "success": true,
-  "projectFilePath": "D:\\Practice\\UiPath\\State_Machine\\.local\\",
+  "projectFilePath": "D:\\Git_demo\\UiPath\\State_Machine\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\pavank\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\pavank\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
@@ -276,54 +276,5 @@
     "C:\\Users\\pavank\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.4.8\\uipath.uiautomation.activities.runtime.23.4.8.nupkg.sha512",
     "C:\\Users\\pavank\\.nuget\\packages\\uipath.vision\\3.10.1\\uipath.vision.3.10.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath.System.Runtime.Windows 23.4.5' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.System.Runtime.Windows"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath.System.Activities 23.4.5' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.System.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath.UIAutomation.Activities.Runtime 23.4.8' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath.Mail.Activities 1.20.3' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.Mail.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath.UIAutomation.Activities 23.4.8' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.UIAutomation.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Practice\\UiPath\\State_Machine\\.local",
-      "message": "Package 'UiPath 23.4.62.63011' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath"
-    }
-  ]
+  "logs": []
 }

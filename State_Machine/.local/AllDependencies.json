@@ -12909,6 +12909,7 @@
       "path": "runtime.any.system.diagnostics.tools/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12935,6 +12936,7 @@
       "path": "runtime.any.system.diagnostics.tracing/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13066,6 +13068,7 @@
       "path": "runtime.any.system.reflection.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13196,6 +13199,7 @@
       "path": "runtime.any.system.runtime.interopservices/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -13697,6 +13701,7 @@
       "path": "runtime.win.microsoft.win32.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -13804,6 +13809,7 @@
       "path": "runtime.win.system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -20938,9 +20944,9 @@
     "restore": {
       "projectUniqueName": "State_Machine",
       "projectName": "State_Machine",
-      "projectPath": "D:\\Practice\\UiPath\\State_Machine\\.local",
+      "projectPath": "D:\\Git_demo\\UiPath\\State_Machine\\.local",
       "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\UiPath\\State_Machine\\.local"
+      "outputPath": "D:\\Git_demo\\UiPath\\State_Machine\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20979,49 +20985,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath.System.Runtime.Windows 23.4.5' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.System.Runtime.Windows"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath.System.Activities 23.4.5' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.System.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath.UIAutomation.Activities.Runtime 23.4.8' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath.Mail.Activities 1.20.3' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.Mail.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath.UIAutomation.Activities 23.4.8' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath.UIAutomation.Activities"
-    },
-    {
-      "code": "NU3018",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UiPath 23.4.62.63011' from source 'C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\Packages': The author primary signature's signing certificate is not trusted by the trust provider.",
-      "libraryId": "UiPath"
-    }
-  ]
+  }
 }

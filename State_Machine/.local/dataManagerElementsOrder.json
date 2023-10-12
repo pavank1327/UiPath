@@ -12,7 +12,8 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "UserQuess&State_2",
+        "UserQuess&StateMachine_1",
+        "RetryCount&StateMachine_1",
         "RandomNumber&StateMachine_1"
       ],
       "ArgumentsSectionElementsOrder": [],
