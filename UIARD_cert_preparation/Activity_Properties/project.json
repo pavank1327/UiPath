@@ -26,7 +26,7 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow",
+    "": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
     "mustRestoreAllDependencies": true,
