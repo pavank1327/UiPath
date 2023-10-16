@@ -1,0 +1,6 @@
+Assets
+
+String 
+boolean
+int
+credentials

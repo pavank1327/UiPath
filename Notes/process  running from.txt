@@ -1,0 +1,6 @@
+process  running from
+
+connect uipath assitent to archestrator with production liscence
+and run the process from asst 
+
+
