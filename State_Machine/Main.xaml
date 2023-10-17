@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="612,463.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="570,465" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -26,6 +26,12 @@
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
       <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -68,15 +74,35 @@
       <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="450,164.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <StateMachine InitialState="{x:Reference __ReferenceID2}" DisplayName="State Machine" sap:VirtualizedContainerService.HintSize="634,637.3333333333334" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+    <StateMachine InitialState="{x:Reference __ReferenceID2}" DisplayName="State Machine" sap:VirtualizedContainerService.HintSize="634,637" sap2010:WorkflowViewState.IdRef="StateMachine_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -86,9 +112,9 @@
           <av:PointCollection x:Key="ConnectorLocation">297,77.5 297,107.5 289.9,107.5 289.9,119</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <State x:Name="__ReferenceID2" DisplayName="Random No generation" sap:VirtualizedContainerService.HintSize="134,62.666666666666664" sap2010:WorkflowViewState.IdRef="State_1">
+      <State x:Name="__ReferenceID2" DisplayName="Random No generation" sap:VirtualizedContainerService.HintSize="134,62" sap2010:WorkflowViewState.IdRef="State_1">
         <State.Entry>
-          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
               <OutArgument x:TypeArguments="x:Int32">[RandomNumber]</OutArgument>
             </Assign.To>
@@ -100,12 +126,12 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">243,119</av:Point>
-            <av:Size x:Key="ShapeSize">134,62.666666666666664</av:Size>
+            <av:Size x:Key="ShapeSize">134,62</av:Size>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <State.Exit>
-          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Random number is generated, are you ready to quess?&quot;]" />
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Random number is generated, are you ready to quess?&quot;]" />
         </State.Exit>
         <State.Transitions>
           <Transition DisplayName="T1" sap:VirtualizedContainerService.HintSize="450,507" sap2010:WorkflowViewState.IdRef="Transition_1">
@@ -117,9 +143,9 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <Transition.To>
-              <State x:Name="__ReferenceID0" DisplayName="User Guess" sap:VirtualizedContainerService.HintSize="134,62.666666666666664" sap2010:WorkflowViewState.IdRef="State_2">
+              <State x:Name="__ReferenceID0" DisplayName="User Guess" sap:VirtualizedContainerService.HintSize="134,62" sap2010:WorkflowViewState.IdRef="State_2">
                 <State.Entry>
-                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="334,243.33333333333334" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the numer" Title="Guess">
+                  <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="334,239" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the numer" Title="Guess">
                     <ui:InputDialog.Result>
                       <OutArgument x:TypeArguments="x:Int32">[UserQuess]</OutArgument>
                     </ui:InputDialog.Result>
@@ -128,22 +154,22 @@
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">237.5,229</av:Point>
-                    <av:Size x:Key="ShapeSize">134,62.666666666666664</av:Size>
+                    <av:Size x:Key="ShapeSize">134,62</av:Size>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <State.Exit>
-                  <Sequence sap:VirtualizedContainerService.HintSize="450,196.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence sap:VirtualizedContainerService.HintSize="450,196" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,86" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Would you like to see whether your quess is correct or not?&quot;]" />
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="388,85" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Would you like to see whether your quess is correct or not?&quot;]" />
                   </Sequence>
                 </State.Exit>
                 <State.Transitions>
-                  <Transition DisplayName="T2" sap:VirtualizedContainerService.HintSize="772,1494" sap2010:WorkflowViewState.IdRef="Transition_2">
+                  <Transition DisplayName="T2" sap:VirtualizedContainerService.HintSize="770,1480" sap2010:WorkflowViewState.IdRef="Transition_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <av:PointCollection x:Key="ConnectorLocation">344.7,291 344.7,321 277.7,321 277.7,291</av:PointCollection>
@@ -155,16 +181,16 @@
                       <x:Reference>__ReferenceID0</x:Reference>
                     </Transition.To>
                     <Transition.Action>
-                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="666.6666666666666,1086" sap2010:WorkflowViewState.IdRef="RetryScope_5">
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="667,1083" sap2010:WorkflowViewState.IdRef="RetryScope_5">
                         <ui:RetryScope.ActivityBody>
                           <ActivityAction>
-                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="624.6666666666666,908.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="625,908" sap2010:WorkflowViewState.IdRef="Sequence_14">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <If Condition="[UserQuess &lt; RandomNumber OR UserQuess &gt; RandomNumber]" sap:VirtualizedContainerService.HintSize="562.6666666666666,672" sap2010:WorkflowViewState.IdRef="If_3">
+                              <If Condition="[UserQuess &lt; RandomNumber OR UserQuess &gt; RandomNumber]" sap:VirtualizedContainerService.HintSize="563,671" sap2010:WorkflowViewState.IdRef="If_3">
                                 <If.Then>
                                   <Sequence sap:VirtualizedContainerService.HintSize="528.6666666666666,488.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -233,7 +259,7 @@
                     </Transition.Action>
                     <Transition.Condition>[UserQuess &lt; RandomNumber]</Transition.Condition>
                   </Transition>
-                  <Transition DisplayName="T3" sap:VirtualizedContainerService.HintSize="772,1494" sap2010:WorkflowViewState.IdRef="Transition_3">
+                  <Transition DisplayName="T3" sap:VirtualizedContainerService.HintSize="770,1480" sap2010:WorkflowViewState.IdRef="Transition_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <av:PointCollection x:Key="ConnectorLocation">237.5,275.5 207.5,275.5 207.5,238.3 237.5,238.3</av:PointCollection>
@@ -245,16 +271,16 @@
                       <x:Reference>__ReferenceID0</x:Reference>
                     </Transition.To>
                     <Transition.Action>
-                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="666.6666666666666,1086" sap2010:WorkflowViewState.IdRef="RetryScope_6">
+                      <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="667,1083" sap2010:WorkflowViewState.IdRef="RetryScope_6">
                         <ui:RetryScope.ActivityBody>
                           <ActivityAction>
-                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="624.6666666666666,908.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="625,908" sap2010:WorkflowViewState.IdRef="Sequence_18">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <If Condition="[UserQuess &lt; RandomNumber OR UserQuess &gt; RandomNumber]" sap:VirtualizedContainerService.HintSize="562.6666666666666,672" sap2010:WorkflowViewState.IdRef="If_4">
+                              <If Condition="[UserQuess &lt; RandomNumber OR UserQuess &gt; RandomNumber]" sap:VirtualizedContainerService.HintSize="563,671" sap2010:WorkflowViewState.IdRef="If_4">
                                 <If.Then>
                                   <Sequence sap:VirtualizedContainerService.HintSize="528.6666666666666,488.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_15">
                                     <sap:WorkflowViewStateService.ViewState>
@@ -333,14 +359,43 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <Transition.Condition>[UserQuess = RandomNumber]</Transition.Condition>
                     <Transition.To>
-                      <State x:Name="__ReferenceID1" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="380.66666666666663,226" sap2010:WorkflowViewState.IdRef="State_3" IsFinal="True">
+                      <State x:Name="__ReferenceID1" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="592,917" sap2010:WorkflowViewState.IdRef="State_3" IsFinal="True">
                         <State.Entry>
-                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,86" sap2010:WorkflowViewState.IdRef="MessageBox_16" Text="[&quot;Yey your guess is correct &quot;  + Environment.NewLine + &quot;The retry count is:&quot; + RetryCount.ToString]" />
+                          <Sequence sap:VirtualizedContainerService.HintSize="546,802" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="sd:DataTable" Name="OutDT" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,86" sap2010:WorkflowViewState.IdRef="MessageBox_16" Text="[&quot;Yey your guess is correct &quot;  + Environment.NewLine + &quot;The retry count is:&quot; + RetryCount.ToString]" />
+                            <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="484,565" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="Output.xlsx">
+                              <ui:ExcelApplicationScope.Body>
+                                <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,455" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_4" SheetName="Sheet1" Text="[UserQuess.ToString]" />
+                                    <ui:ExcelWriteCell Cell="B1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_5" SheetName="Sheet1" Text="[RetryCount.ToString]" />
+                                    <ui:ExcelWriteCell Cell="C1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_6" SheetName="Sheet1" Text="[Now.ToString(&quot;yyyy-MM-dd HH:mm:ss&quot;)]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </ui:ExcelApplicationScope.Body>
+                            </ui:ExcelApplicationScope>
+                          </Sequence>
                         </State.Entry>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <av:Point x:Key="ShapeLocation">421.5,229.5</av:Point>
-                            <av:Size x:Key="ShapeSize">134,62.666666666666664</av:Size>
+                            <av:Size x:Key="ShapeSize">134,62</av:Size>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
