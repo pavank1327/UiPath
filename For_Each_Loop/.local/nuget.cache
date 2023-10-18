@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6t16wTIo7NvDMp77oOUxFWavjfggoQzK2sTfSJbEYat6QZCXil845IBNz5dnVfaLVoXOrHBIs6qaWB8ZuH6OsQ==",
+  "dgSpecHash": "eRtjJ8Vgh0EaaOudahvkE3mIN7axIDmPkuaOUuVRTPvotVaHt/pin9YU2BMc10CMktQ/RrVd4Q/33RYrRXKGCg==",
   "success": true,
-  "projectFilePath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local\\",
+  "projectFilePath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\pavank\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\pavank\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
@@ -281,13 +281,5 @@
     "C:\\Users\\pavank\\.nuget\\packages\\uipath.uiautomation.activities\\22.10.3\\uipath.uiautomation.activities.22.10.3.nupkg.sha512",
     "C:\\Users\\pavank\\.nuget\\packages\\uipath.vision\\3.6.0\\uipath.vision.3.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local",
-      "message": "Problem reading the cache file D:\\Git_demo\\UiPath\\For_Each_Loop\\.local\\nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

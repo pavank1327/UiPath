@@ -20623,9 +20623,9 @@
     "restore": {
       "projectUniqueName": "For_Each_Loop",
       "projectName": "For_Each_Loop",
-      "projectPath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local",
+      "projectPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local",
       "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local"
+      "outputPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20664,13 +20664,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Git_demo\\UiPath\\For_Each_Loop\\.local\\nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
