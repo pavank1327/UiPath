@@ -20617,15 +20617,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pavank\\.nuget\\packages\\": {}
+    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "For_Each_Loop",
       "projectName": "For_Each_Loop",
-      "projectPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local",
-      "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local"
+      "projectPath": "D:\\Pavan_K\\Git_Local\\UiPath\\For_Each_Loop\\.local",
+      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
+      "outputPath": "D:\\Pavan_K\\Git_Local\\UiPath\\For_Each_Loop\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20656,7 +20656,7 @@
             "version": "[22.10.3, 22.10.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {
