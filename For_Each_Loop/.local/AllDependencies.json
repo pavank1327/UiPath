@@ -20623,9 +20623,9 @@
     "restore": {
       "projectUniqueName": "For_Each_Loop",
       "projectName": "For_Each_Loop",
-      "projectPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local",
+      "projectPath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local",
       "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\UiPath\\For_Each_Loop\\.local"
+      "outputPath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
