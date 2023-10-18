@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "HNWo7kKtDZ9frW+lPQbkO1POPvgGy60QOAEZ6bgUm1DNfYltsyYv9tfDQd240wMmZoeqUEThE0vuscjRtsRI2w==",
+  "success": true,
+  "projectFilePath": "D:\\Pavan_K\\Git_Local\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\MERGE_AND_JOIN_DATA_TABLE\\.local\\",
+=======
   "dgSpecHash": "Q6i2yxXkZ6lnw3WPrjyNGIHzsZl6MEUhOTCURK5jBAMzzdfPJaujCdSC2m75EeyLwG1yTwu4pfkAth4OeRRtxA==",
   "success": true,
   "projectFilePath": "D:\\Git_demo\\UiPath\\UIARD_cert_preparation\\Merge - join - sort\\MERGE_AND_JOIN_DATA_TABLE\\.local\\",
+>>>>>>> 800094f347f6cc624a00361ff118104813a7657f
   "expectedPackageFiles": [
     "C:\\Users\\pavank\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\pavank\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

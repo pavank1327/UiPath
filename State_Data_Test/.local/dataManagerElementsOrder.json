@@ -1,0 +1,44 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Districts&Sequence_18",
+        "variable2&Sequence_18",
+        "Area&Sequence_18",
+        "Population&Sequence_18",
+        "Capital_city&Sequence_18",
+        "DT&Sequence_2",
+        "State&Sequence_16"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "main2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Pop&Sequence_4",
+        "Dist&Sequence_4",
+        "Ar&Sequence_4",
+        "Cap&Sequence_4",
+        "Dt_output&Sequence_3",
+        "state&Sequence_2",
+        "DT&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
