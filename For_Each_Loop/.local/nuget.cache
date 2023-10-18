@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "6t16wTIo7NvDMp77oOUxFWavjfggoQzK2sTfSJbEYat6QZCXil845IBNz5dnVfaLVoXOrHBIs6qaWB8ZuH6OsQ==",
+  "success": true,
+  "projectFilePath": "D:\\Git_demo\\UiPath\\For_Each_Loop\\.local\\",
+=======
   "dgSpecHash": "9loRYC8t89fdVtSXV5ypXA2Mho2kevZqIs1qCa/lO7ol81aMC0iH6IgQEmYTgAKPWU5ClNN7h8dAn7uhYcuISA==",
   "success": true,
   "projectFilePath": "D:\\Pavan_K\\Git_Local\\UiPath\\For_Each_Loop\\.local\\",
+>>>>>>> c5fb05f16e805aebdaa3e72b95dffd57567914dc
   "expectedPackageFiles": [
     "C:\\Users\\GOPINATH\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\GOPINATH\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",

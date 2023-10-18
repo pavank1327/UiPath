@@ -12,11 +12,13 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "ProgramCount&StateMachine_1",
-        "OutDT&Sequence_21",
-        "UserQuess&StateMachine_1",
-        "RetryCount&StateMachine_1",
-        "RandomNumber&StateMachine_1"
+        "ContainerArray&Sequence_1",
+        "min&Sequence_1",
+        "max&Sequence_1",
+        "MaxCount&Sequence_1",
+        "Min&Sequence_4",
+        "Max&Sequence_5",
+        "Min&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
