@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "OutDT&Sequence_21",
         "UserQuess&StateMachine_1",
         "RetryCount&StateMachine_1",
         "RandomNumber&StateMachine_1"
