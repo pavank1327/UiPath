@@ -2,7 +2,7 @@
 
 
 ### REFrameWork Template ###
-**Robotic Enterprise Framework**
+**Robotic Enterprise Framewok**
 
 * Built on top of *Transactional Business Process* template
 * Uses *State Machine* layout for the phases of automation project
