@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "Entered_Index&Sequence_2",
         "Str_Item&TryCatch_1",
         "Arr_Items&TryCatch_1"
       ],
