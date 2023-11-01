@@ -1,5 +1,6 @@
 {
   "name": "State_Machine",
+  "projectId": "68326757-4799-4638-82b2-e8a0efd42f3e",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -43,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
