@@ -1,5 +1,6 @@
 {
   "name": "State_Data_Test",
+  "projectId": "1159a771-ea34-49e7-864b-e692d45ac066",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -43,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
