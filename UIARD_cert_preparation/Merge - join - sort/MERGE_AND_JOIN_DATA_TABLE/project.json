@@ -1,5 +1,6 @@
 {
   "name": "MERGE_AND_JOIN_DATA_TABLE",
+  "projectId": "6dcecf3b-e0a9-4fe3-b4b1-748b017cc77d",
   "description": "Blank Process",
   "main": "Merge.xaml",
   "dependencies": {
@@ -43,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [

@@ -20617,15 +20617,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
+    "C:\\Users\\Presto Info\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "For_Each_Loop",
       "projectName": "For_Each_Loop",
-      "projectPath": "D:\\Pavan_K\\Git_Local\\UiPath\\For_Each_Loop\\.local",
-      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
-      "outputPath": "D:\\Pavan_K\\Git_Local\\UiPath\\For_Each_Loop\\.local"
+      "projectPath": "D:\\Git_Local\\UiPath\\For_Each_Loop\\.local",
+      "packagesPath": "C:\\Users\\Presto Info\\.nuget\\packages\\",
+      "outputPath": "D:\\Git_Local\\UiPath\\For_Each_Loop\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -20656,7 +20656,7 @@
             "version": "[22.10.3, 22.10.3]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Presto Info\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

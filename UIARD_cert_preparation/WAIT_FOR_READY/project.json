@@ -1,5 +1,6 @@
 {
   "name": "WAIT_FOR_READY",
+  "projectId": "c0b248ff-15a0-4c61-9674-324e9a968810",
   "description": "Blank Process",
   "main": "None.xaml",
   "dependencies": {
@@ -43,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [

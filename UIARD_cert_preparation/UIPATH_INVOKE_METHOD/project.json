@@ -1,5 +1,6 @@
 {
   "name": "UIPATH_INVOKE_METHOD",
+  "projectId": "0e0f3fcf-9253-48cf-af2c-67e00e648048",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -43,7 +44,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "CSharp",
   "entryPoints": [
