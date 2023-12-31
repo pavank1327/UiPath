@@ -1,0 +1,7 @@
+business and system exceptions
+
+consecutive exception --
+
+example - one by one 5 consecutive exceptions then we can use this 
+
+PavanKAnjaniPutraNetflixPW@123

@@ -1,0 +1,351 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="696,3774" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="40">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="57">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="706,3709" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+      <Variable x:TypeArguments="x:String" Name="Capital" />
+      <Variable x:TypeArguments="x:String" Name="AREA" />
+      <Variable x:TypeArguments="x:String" Name="DISTRICTS" />
+      <Variable x:TypeArguments="x:String" Name="POPULATION" />
+      <Variable x:TypeArguments="sd:DataTable" Name="DT" />
+      <Variable x:TypeArguments="sd:DataRow" Name="row" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange AddHeaders="True" DataTable="[DT]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="664,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="State_data.xlsx">
+      <ui:ReadRange.Range>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </ui:ReadRange.Range>
+    </ui:ReadRange>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" ContinueOnError="True" DisplayName="Use Browser Chrome: States Uts - Know India: National Portal of India" sap:VirtualizedContainerService.HintSize="664,3493" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="c5239f93-8e25-42ec-ac04-c4cc1e9871b3" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="630,3276" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="588,154" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(PgDn)][u(hk)]" Version="V3" />
+            <uix:NClick ClickType="Single" DisplayName="Click 'Andhra Pradesh(Amaravat…'" sap:VirtualizedContainerService.HintSize="588,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c5239f93-8e25-42ec-ac04-c4cc1e9871b3" Version="V3">
+              <uix:NClick.ActivateBefore>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Literal x:TypeArguments="x:Boolean" Value="True">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Literal>
+                </InArgument>
+              </uix:NClick.ActivateBefore>
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://knowindia.india.gov.in/states-uts/" DesignTimeRectangle="103, 212, 251, 37" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Andhra Pradesh(Amaravat…'" FullSelectorArgument="&lt;webctrl aaname='Andhra Pradesh*' parentid='fontSize' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Andhra Pradesh(Amaravati)' parentid='fontSize' tag='A' type='' class='' check:innerText='Andhra Pradesh&amp;#xD;&amp;#xA;(Amaravati)' /&gt;" Guid="eb37cd34-e8d4-42b7-b26b-ab5f1e56887a" ImageBase64="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" InformativeScreenshot="816ce2cabf7dff1ac1c0b892f398d393.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='States Uts - Know India: National Portal of India' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: AP State Portal" sap:VirtualizedContainerService.HintSize="588,2793" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="44de25be-7ab2-41e0-a100-bf4ebe67d912" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="554,2576" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click '×'" sap:VirtualizedContainerService.HintSize="512,157" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44de25be-7ab2-41e0-a100-bf4ebe67d912" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.ap.gov.in/#/" CvElementArea="1051, 306, 45, 45" CvTextArea="1065, 321, 17, 16" CvTextArgument="X" CvType="Icon" DesignTimeRectangle="1054, 308, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'×'" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' type='button' class='close' aaname='×' check:innerText='×' /&gt;" Guid="11d1e628-adfb-47e1-9b6b-e73342913e73" ImageBase64="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" InformativeScreenshot="40e3e266757b309d32e506bfb3281618.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="512,154" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(PgDn)][u(hk)]" Version="V3" />
+                    <uix:NGetText DisplayName="Get Text 'CAPITAL CITY'" sap:VirtualizedContainerService.HintSize="512,157" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="44de25be-7ab2-41e0-a100-bf4ebe67d912" TextString="[Capital]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.ap.gov.in/#/" CvType="AnyWordGroup" DesignTimeRectangle="489, 329, 237, 29" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Amaravati'" FullSelectorArgument="&lt;webctrl parentid='profile' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='profile' tag='P' type='' class='' /&gt;" Guid="611f0bf7-6fb3-4ba7-a8cf-bf4ec3141208" InformativeScreenshot="70345fc14b58205b956b7530e1460d90.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Visible">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="CAPITAL CITY" CvType="Text" DesignTimeRectangle="547, 304, 107, 17" ElementType="Text" FriendlyName="'CAPITAL CITY'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'AREA'" sap:VirtualizedContainerService.HintSize="512,157" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="44de25be-7ab2-41e0-a100-bf4ebe67d912" TextString="[AREA]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.ap.gov.in/#/" CvType="AnyWordGroup" DesignTimeRectangle="756, 457, 237, 29" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'1,60,205 Sq. Kms'" FullSelectorArgument="&lt;webctrl idx='2' parentid='profile' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='profile' tag='P' class='' /&gt;" Guid="4a7b6cc6-e4ed-4799-87ee-ffc5400028d6" InformativeScreenshot="ae8c7657e8243227880c285cca92a37a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="AREA" CvType="Text" DesignTimeRectangle="814, 432, 46, 17" ElementType="Text" FriendlyName="'AREA'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'DISTRICTS'" sap:VirtualizedContainerService.HintSize="512,157" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="44de25be-7ab2-41e0-a100-bf4ebe67d912" TextString="[DISTRICTS]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.ap.gov.in/#/" CvType="AnyWordGroup" DesignTimeRectangle="489, 593, 237, 29" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'26'" FullSelectorArgument="&lt;webctrl idx='3' parentid='profile' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='profile' tag='P' class='' /&gt;" Guid="04162b8d-9357-4b6d-a91b-9d98f03c2036" InformativeScreenshot="3038cdc4c0b45a75b84bd8079643f9f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="DISTRICTS" CvType="Text" DesignTimeRectangle="548, 569, 82, 16" ElementType="Text" FriendlyName="'DISTRICTS'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'POPULATION'" sap:VirtualizedContainerService.HintSize="512,157" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="44de25be-7ab2-41e0-a100-bf4ebe67d912" TextString="[POPULATION]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.ap.gov.in/#/" CvType="AnyWordGroup" DesignTimeRectangle="756, 593, 237, 29" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'49.67 Million (2011)'" FullSelectorArgument="&lt;webctrl idx='4' parentid='profile' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='profile' tag='P' class='' /&gt;" Guid="c2dcb4cb-ad84-4678-bea5-cc609e8188a4" InformativeScreenshot="0236ca7c868fd416c2a1a31a8b43e84c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArgument="POPULATION" CvType="Text" DesignTimeRectangle="815, 569, 103, 15" ElementType="Text" FriendlyName="'POPULATION'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="512,227" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,148" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:BuildDataTable DataTable="[DT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="358,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Capital&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Area&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Districts&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Population&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName /&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="512,250" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="476,171" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign DisplayName="Set Variable Value" sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_1">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="sd:DataRow">[row]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="sd:DataRow">[DT.NewRow()]</InArgument>
+                            </Assign.Value>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Assign>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="512,194" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[row("Capital")]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[Capital]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[row("Area")]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[AREA]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[row("Districts")]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[DISTRICTS]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Object">[row("Population")]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Object">[POPULATION]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="512,358" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="476,279" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:AddDataRow ArrayRow="{x:Null}" DataRow="[row]" DataTable="[DT]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,191" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <ui:WriteRange AddHeaders="True" DataTable="[DT]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="512,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A2" WorkbookPath="State_data_Op.xlsx" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAODSURBVDhPbVJrTJNXGH4dMBPD5vYL8U+zxW2RzpFg2H7sFjNxbouuS5xL0OiyTBQDxM1Rt0UZoIIgc8rmSvlqKfRmy1cuvWCB7mtrKQXpaBmztnKZJoPCaLiaGFnw2WlHFn7sSZ6ck/c8z7m8z6G12ChJI3qVkiRVBzOKNWV537Vcqrhg+bnia925vI+qD2bQ208mpX0iWlWvRRJRgeErelOak17J11Ro3MZxg7dtWedpwY2AgPhc4zaMn2+urnzr1K70IqOUaMOqN47PZAW0s0zynErQ2m2/dj1Wuq6DE3TgnAbIBT3qHVpwv2ggDHseNzn1dqZ9Pu5JIFu6g1JzN6cqHGr9xGwU7f5O1Haq0OTRwDKogXVQC5W7Ed93cOgICojOTSOufYp5sot3EOl8bfRF45mP706OPXSH+1Flq4MjoMTslBIrC3yC8Xn3YAOudDagbzSAuPbLppL9hj5L4hIpag+vm5qfQQN7s8WvxsMZDguxFty5b0twMWZiNQXMA2qoeloxvRCDpsekpycohTYVZacJod5AeHIMV7obER5X4++5Zgz+IUCIDCQYuCckanfG1PihW4VIdBzOUG9w84nXNlHOxUMia8Ax4gr50NRrwuSEFg9mbbgZ8UDnMyfovetN1CbYmsrLI/5UW1AY2V1zWERZpXvTVW7DUHOfFTKnDqP3NOw0Ho7b7Si3yXGWUbhtZjUTW9PiclcDTP0drMmm37JK96QTbaX1dQ41H+++0mOCnXX+UUyBuZlWdPcr4BhQYj7WikesB3aWCOcywjHswTWXnqeXaD25w7foG/35Q+aBzuVGtkF1hxzOIQ5LYQ7gLwItNViKcBCGFCwFlgYz24POZam2/LAn4id6/fRuerEo+5mr9mtmY287GtyGxDX5GzI8qC3G4k9SGOx1uMzMXcM3MT3/F9Rug0WUn/nsG2feT8RI3/JltK/ygFhuV/pcv/ewBIZh9Vkx016PP81ytPVZELwfwhT7RM09rb69Z/eLTxlLiJL/9RO9Q6T28rTn3L4tP9rq5P6xYDQaurWyZLiExes1iI4EVvyjgalaq0z+bumHWzinlmjnqnctNh4TU0quaENmyQe5n8tOVJVfLVRXy09yefUnL2Scfu9I8qcvPJ2av21V/X8oyCIq3J5Ex1/ZSsdelrBRQvnbcuioeBcdzxSvK9yevC6u+Q9E/wD8ZEG5olZygwAAAABJRU5ErkJggg==" InformativeScreenshot="d9ba7190c74f83ed747e39716f29e37a.jpg" Selector="&lt;html app='chrome.exe' title='AP State Portal' /&gt;" Title="AP State Portal" Url="https://www.ap.gov.in/#/" />
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADOklEQVRYR63W7U4TQRQGYC4BWqD7rz+9id7H3kbvor/EVPG7IjESY/xYohL1315Bb2AjIoRVlDjyNZJsMuP7rmfKtDk0oJzkycy8OzNnS7Ay471XTavTj7Md6EEe6cpjtbQepIY0rU4/zBrw4MBy/vv9bCWP1dJ6kBpSXCfv5tKTjTkDBeY9uzHnRIX1QOYe8w50IYdUjtel9SA1pFDHbxrp8ds5CwZKXMyxOvm7dnyGecU5M8EzFc/KNWoPUkMKhUt4UQEeHFgZuY4xNxD28MzoJbQepIbEOlpvZkfrDYfRQAWce5ljbISRuTwbzXOZD//5BQ6zRnr4uunAg5UxYM4sPNfw2b+/AOvgVXNw8LLpMPrROG1+hpmRa9QepIYU168X8z3wwk3M43WshLZcofYgNaS4zPP5ApzwES0LSjlel9aD1JDi+vlswYC/pKt7gf21hSH4S8rkeF1aD1JDimt/bbGz/3TRX4LjGTlel9aD1JAm68eTxQwqGMhowQsjI3OOY5+epfUgNaTJ+r7a6oLZW20NOEIO9ZwZVJj3wMmRsdJ6kBrSZO09brX3VtBspZWBhRyGgnMne6wcGSutB6khafXtUasUHjIoosxCl6NsHyutB6khafX1YSsHCw4yWZMBDwOov3onS+tBakhx7d5P2pCVDxIPFTiZ51CAlTXnDnvH/hZgaT1IDSmu3XvJEDxYGYNiIqvAyLwnx+vSepAaUqidO0l7525SgVc4JQsKuaIurQepIYXavp1k4KEHQ0hlPamSsYzm//8X0ZdbSbG9jMuWky6UXIOTbIzkFgxxr1yj9iA1pFBbN5MCPJRb/SSL1k7GGLMShmBh9I2o9SA1pFB10z4u76NxP0nByJoqcNE6ZByZj/4/0HqQGlKozzeSNgzBgb8gC1fzryDU5lKSb15PzIUsnX3yUFoPUkOaVp9619RvO624F9paD1JDwqEB5OcwUIa1NDpvP/eVWg9SQ8IhXuigAn6KQuYc+QKcWwgvkAH3hT1szH3cY7QepIaEQ205TLyQL8Q5m3RlXv8U5AU6khE/eXhev4jWg9SQoktT4MsE9S8Y87CHYyiuZV+9V6RaD+/9zB+dGsHongU5dgAAAABJRU5ErkJggg==" InformativeScreenshot="883114d77882174f88c10509a5527101.jpg" Selector="&lt;html app='chrome.exe' title='States Uts - Know India: National Portal of India' /&gt;" Title="States Uts - Know India: National Portal of India" Url="https://knowindia.india.gov.in/states-uts/" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </ueab:SequenceX>
+</Activity>

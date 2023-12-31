@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "8/lhFzqnjpZ/AiEhodwsTIV9b+3l6I1Wcv3/gzAMSDR+e3mr2vAnJZ8srfKq297HP+ZNZSSoWBIFtaYKr5WHYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pavank\\Documents\\UiPath\\ReFrameWork-master\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\pavank\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.10\\microsoft.rest.clientruntime.2.3.10.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\uipath\\19.10.7243.31457\\uipath.19.10.7243.31457.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\uipath.ocr.contracts\\2.2.1\\uipath.ocr.contracts.2.2.1.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\uipath.system.activities\\18.3.6877.28276\\uipath.system.activities.18.3.6877.28276.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\uipath.uiautomation.activities\\19.10.1\\uipath.uiautomation.activities.19.10.1.nupkg.sha512",
+    "C:\\Users\\pavank\\.nuget\\packages\\uipath.vision\\1.8.1\\uipath.vision.1.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

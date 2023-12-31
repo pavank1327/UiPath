@@ -1,0 +1,10 @@
+1)when excel file data is read then it creates a datatable
+2)PDD - process design doc and SDD - solution design doc
+3) stop and kill automation
+stop - complete previous steps and stops
+kill - kills right away
+
+
+4) dispactcher and performer -- study these two
+
+5) can we user config file in flowchart or a sequence

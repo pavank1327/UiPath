@@ -1,0 +1,5 @@
+1) uipath check app state activity -- use this activity and create a work flow to enter 10 different records like first and last name e.t.c.. which should be fetched from Excel sheet.
+
+2) repeat no of times activity
+
+3) State machine

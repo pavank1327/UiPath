@@ -1,0 +1,15 @@
+Hi Rakesh sir,
+
+Again thanks for you videos'.
+I always have queries on how actually robots works,, there licensing and allocation to different machines. Below is the question i got while studying from the UiPath Academy and i did not understand it very well could you please explain me.
+ 
+Question : Which of the following sets of jobs can be run simultaneously using a pool of 3 machines connected using the same machine template having 3 runtimes?
+Options :
+- 5 jobs created using a foreground process
+-
+5 jobs created using a background process (Correct)
+-3 jobs created using a foreground process and 5 jobs created using a background process (Correct)
+-5 jobs created using a foreground process and 3 jobs created using a background process
+
+Explanation :
+An unattended robot can run maximum one foreground process and as many background processes. Hence, from the options presented, those that can be run are those that involve maximum 3 jobs created using a foreground process.

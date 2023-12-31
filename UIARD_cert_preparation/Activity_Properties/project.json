@@ -13,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.2.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1-alpha.3",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -26,7 +26,7 @@
       "Private:*",
       "*password*"
     ],
-    "": "Workflow",
+    "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
     "mustRestoreAllDependencies": true,
@@ -56,6 +56,8 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
+  "publishData": {
+    "iconUrl": ".package/W for R.png"
+  },
   "targetFramework": "Windows"
 }

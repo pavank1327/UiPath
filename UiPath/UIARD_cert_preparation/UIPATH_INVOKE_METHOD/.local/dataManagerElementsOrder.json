@@ -1,0 +1,77 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT1&Sequence_1",
+        "DT2&Sequence_1",
+        "Output&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Multi_List.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "List1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Inverse_main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "DT1&Sequence_3",
+        "DT2&Sequence_3",
+        "Output&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Invoke_List.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "List1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "../../../../AppData/Local/Programs/UiPath/Studio/Snippets/Windows/SnippetsCSharp/Samples/Calculator Automation.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "winFolder&Sequence_5",
+        "resultValue&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Displaying_On_Consol.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Result"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

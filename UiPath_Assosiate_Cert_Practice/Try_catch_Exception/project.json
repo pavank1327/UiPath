@@ -1,6 +1,5 @@
 {
-  "name": "Try_catch_Exception",
-  "projectId": "d1284ea0-59c4-413e-848e-92c0373c3181",
+  "name": "Try_Catch_Except",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
@@ -14,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.4.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1-alpha.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -44,14 +43,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false,
-    "saveToCloud": false
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "90ea729d-ab51-4948-9dfe-f8276e6f7e40",
+      "uniqueId": "df729f11-d6e7-4bc0-9c07-7132c6ae2fab",
       "input": [],
       "output": []
     }

@@ -18659,15 +18659,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pavank\\.nuget\\packages\\": {}
+    "C:\\Users\\GOPINATH\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFramework",
       "projectName": "RoboticEnterpriseFramework",
-      "projectPath": "D:\\Practice\\UiPath\\RE Framework\\RoboticEnterpriseFramework\\.local",
-      "packagesPath": "C:\\Users\\pavank\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\UiPath\\RE Framework\\RoboticEnterpriseFramework\\.local"
+      "projectPath": "C:\\Users\\GOPINATH\\Pavan_K\\UiPath\\RE Framework\\RoboticEnterpriseFramework\\.local",
+      "packagesPath": "C:\\Users\\GOPINATH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GOPINATH\\Pavan_K\\UiPath\\RE Framework\\RoboticEnterpriseFramework\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
@@ -18693,7 +18693,7 @@
             "version": "[23.4.6, 23.4.6]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\pavank\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\GOPINATH\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"
       }
     },
     "runtimes": {

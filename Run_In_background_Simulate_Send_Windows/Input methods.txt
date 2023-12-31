@@ -1,0 +1,3 @@
+Input actions require you or the robot to directly interact with an opened application or web page. There are three types of input methods for click and type actions, that differ in terms of compatibility and capability.
+
+We generally recommend the Simulate Type/Click method as it is the fastest of the three and works in the background, but only if you do not need to send special keyboard shortcuts. If this does not work for you, try the SendWindowMessages method and then the Default one, as it is the slowest.

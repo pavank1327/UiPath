@@ -1,0 +1,10 @@
+Ways to write to  split msg
+
+DirectoryPath.Split("\"c)
+DirectoryPath.Split(CChar("\"))
+DirectoryPath.Split(CChar("\".ToCharArray))
+
+Join the splitmsg
+
+String.Join(",",SplitFolder)
+String.Join(Environment.NewLine,SplitFolder)
